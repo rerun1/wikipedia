@@ -25,11 +25,34 @@ body {
   background: linear-gradient(to bottom, #ffffff 50%, #f6f6f6 100%) no-repeat;
   background-color: #f6f6f6;
 }
+b {
+  font-weight: bolder;
+}
 a {
   color: #0b0080;
 }
 a:visited {
   color: #0645ad;
+}
+h2 {
+  font-size: 1.62rem;
+  text-align: center;
+}
+h3 {
+  font-size: .75rem;
+  color: rgba(68,68,68,0.8);
+  text-align: left;
+  border-bottom: 1px solid rgba(68,68,68,0.3);
+  margin: 0 2.5rem .25rem .5rem;
+  padding: 1rem 0 .25rem 0;
+}
+h4 {
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+.container-fluid {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 .nav {
   font-size: .75rem;
@@ -78,28 +101,12 @@ a:visited {
 .languages a {
   padding: .065rem 5rem 0rem .5rem;
 }
-h2 {
-  font-size: 1.62rem;
-  text-align: center;
-}
-h3 {
-  font-size: .75rem;
-  color: rgba(68,68,68,0.8);
-  text-align: left;
-  border-bottom: 1px solid rgba(68,68,68,0.3);
-  margin: 0 2.5rem .25rem .5rem;
-  padding: 1rem 0 .25rem 0;
-}
-.container-fluid {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
 .topNav {
   position: absolute;
   top: 0;
   right: 0;
   width: 100%;
-  height: 3rem;
+  height: 5rem;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.0)) no-repeat;
   z-index: 200;
   padding: .5rem .5rem 0 0;
@@ -108,13 +115,18 @@ h3 {
   font-size: .8125rem;
   line-height: 1.125;
   background: linear-gradient(to bottom, #ffffff 50%,#f6f6f6 100%) no-repeat;
-  margin: 4rem 0 0 0;
+  margin: 4rem 0 0 170px;
   padding: 0 0 0 0;
   border-bottom: 1px solid #cedff2;
 }
 .bottomNav p {
   text-align: left;
   margin: 0 0 0 1rem;
+  padding: 0 0 0 0;
+}
+.mainContent {
+  background-color: #fff;
+  margin: 0 0 0 170px;
   padding: 0 0 0 0;
 }
 .jumbotron {
@@ -144,29 +156,113 @@ h3 {
   margin: 0 0 0 0;
   padding: 0 0rem 0 0;
 }
-.jumbotron .nav a {
+.jumbotron .nav-item a {
+  margin: 0 0 0 0;
   padding: 0 2rem 0 .75rem;
 }
-.jumbotron li {
-  line-height: .2;
-}
-.jumbotron li::before {
-  display: inline-block;
-  position: relative;
-  top:1rem;
-  left: 0;
-  content: '•';
-  font-size: 1.5rem;
-  color: #0645ad;
-}
-
-.mainContent {
-  background-color: #fff;
-  /* border: 1px solid #cedff2;
-  border-top: 1px solid #fff; */
-  margin: 0 0 0 170px;
+.jumbotron ul {
+  list-style: none;
+  margin: 0 0 0 0;
   padding: 0 0 0 0;
 }
+.jumbotron .nav li::before {
+  display: inline-block;
+  position:relative;
+  top: .25rem;
+  content: "\2022";
+  font-size: 1.5rem;
+  width: 1rem;
+  margin: -.5rem 0 0 -1rem;
+  padding: 0 0 0 0;
+  color: #0645ad;
+}
 .stories {
+  font-size: .9rem;
+  line-height: 1.65;
+  color: black;
+  margin: .5rem 1.25rem 0 1.25rem;
+  padding: 0 0 0 0;
+}
+.stories p {
+  margin: .125rem 0 .125rem 0;
+  padding: 0 0 .25rem 0;
+}
+.leftStory {
+  background: rgba(206,242,224,0.25);
+  border: 1px solid #cef2e0;
+  margin: 0 -.75rem 0 0;
+  padding: .5rem .5rem .5rem .5rem;
+}
+.leftStory h4 {
+  background-color: #cef2e0;
+  border: 1px solid #a3bfb1;
+  margin: 0 0 1rem 0;
+  padding: .25rem .25rem .25rem .25rem;
+}
+.leftStoryText {
 
+}
+.leftStoryImage {
+  width: 130px;
+}
+.leftStoryImage img {
+  width: 120px;
+  margin: 0 0 .25rem 0;
+  padding: 0 0 0 0;
+}
+.leftStory figure {
+  width: 120px;
+  font-size: .9rem;
+  line-height: 1.45;
+  color: rgba(68,68,68,0.8);
+  margin: 0 0 .25rem 0;
+  padding: 0 0 0 0;
+}
+.rightStory {
+  background-color: rgba(163,176,191,0.15);
+  border: 1px solid rgba(163,176,191,0.25);
+  margin: 0 0 0 -.75rem;
+  padding: .5rem .5rem 0 .5rem;
+}
+.rightStory h4 {
+  background-color: #cedff2;
+  border: 1px solid #a3b0bf;
+
+  padding: .25rem 0rem .25rem .5rem;
+}
+.rightStoryImage {
+  width: 160px;
+  padding: 0 0 0 10px;
+}
+.rightStoryImage img {
+  width: 150px;
+  margin: 0 0 .25rem 0;
+  padding: 0 0 0 0;
+}
+.rightStory figure {
+  width: 150px;
+  font-size: .9rem;
+  line-height: 1.45;
+  color: rgba(68,68,68,1.0);
+  margin: 0 0 .25rem 0;
+  padding: 0 0 0 0;
+}
+.rightStory figcaption {
+  color: rgba(68,68,68,1.0);
+}
+.rightStory ul {
+  list-style: none;
+  margin: 0 0 0 .5rem;
+  padding: 0 0 0 1rem;
+}
+.rightStory ul li::before {
+  display: inline-block;
+  position:relative;
+  top: .25rem;
+  content: "\2022";
+  font-size: 1.5rem;
+  width: 1rem;
+  margin: -.5rem 0 0 -1rem;
+  padding: 0 0 0 0;
+  color: #0645ad;
 }

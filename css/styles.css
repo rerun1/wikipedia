@@ -115,32 +115,95 @@ h4 {
   font-size: .8125rem;
   line-height: 1.125;
   background: linear-gradient(to bottom, #ffffff 50%,#f6f6f6 100%) no-repeat;
-  margin: 4rem 0 0 170px;
+  margin: 50px 0 0 185px;
   padding: 0 0 0 0;
-  border-bottom: 1px solid #cedff2;
+}
+.bottomNav .col-md-auto {
+  background-color: #fff;
+  margin: 0 0 0 0;
+  padding: 0 0 0 15px;
+}
+.bottomNav .col-md-1 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.bottomNav .col-md-2 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.bottomNav .col-md-3 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.bottomNav .col-md-4 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 .bottomNav p {
   text-align: left;
   margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  padding: 8px 6px 0 8px;
 }
 .mainPageNav {
-  border: 1px solid red;
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+  border-right: 1px solid #cedff2;
+  border-bottom: 1px solid #fff;
+  margin: 0 0 0 0;
+  padding: 0 6px 0 0;
 }
 .talkNav {
-  border: 1px solid green;
+  width: 100%;
+  height: 30px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border-right: 1px solid #cedff2;
+}
+.read {
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border-right: 1px solid #cedff2;
+  border-left: 1px solid #cedff2;
+}
+.view {
+  width: 100%;
+  height: 30px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border-right: 1px solid #cedff2;
+}
+.search {
+  width: 100%;
+  height: 30px;
+  margin: 0 0 0 0;
+  padding: 0 0 2px 0;
+}
+.searchBox {
+  height: 26px;
+  margin: 0 0 0 0;
+  padding: 0 2px 0 0;
+  border: 1px solid #a2a9b1;
+}
+.searchBox p {
+  padding: 6px 0 0 6px;
+  margin: 0 0 0 0;
 }
 .mainContent {
   background-color: #fff;
   margin: 0 0 0 170px;
   padding: 0 0 0 0;
+  border-top: 1px solid #cedff2;
 }
 .jumbotron-fluid {
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 0rem;
   margin: 1.9rem 1.25rem 0 1.25rem;
-  padding: .85rem 1rem 0 1rem;
+  padding: .5rem 1rem 0 1rem;
 }
 .jumbotron-fluid h2 {
   font-weight: normal;
@@ -154,7 +217,7 @@ h4 {
 .jumbotron-fluid .nav {
   font-size: .85rem;
   margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  padding: .5rem 0 0 0;
 }
 .jumbotron-fluid .nav-item a {
   display: inline-block;
@@ -165,7 +228,7 @@ h4 {
   .jumbotron-fluid .nav-item a {
     display: inline-block;
     margin: 0 0 0 0;
-    padding: 0 0rem 0 0;
+    padding: 0 0 0 0;
   }
 }
 .jumbotron-fluid ul {
